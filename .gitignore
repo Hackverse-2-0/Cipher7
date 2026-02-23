@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -39,3 +40,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+=======
+# ==========================================
+# SECURITY: Never commit secrets or env vars
+# ==========================================
+.env
+.env.*
+*.secret
+keys/
+credentials/
+
+# ==========================================
+# OS Generated Files (Clutter)
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# TEAM: ADD YOUR SPECIFIC FRAMEWORK RULES BELOW
+# ==========================================
+>>>>>>> b82aadc81213886408571997c1b6db061f18e670
